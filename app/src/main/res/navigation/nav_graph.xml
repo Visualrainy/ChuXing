@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.tw.chuxing.home.view.HomeFragment"
+        android:name="com.tw.chuxing.transportation.view.HomeFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_home">
 
