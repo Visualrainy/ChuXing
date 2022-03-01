@@ -15,4 +15,5 @@
     <string name="car_type">车辆大小：%s</string>
     <string name="duration">预估时间：%d</string>
     <string name="price">预估费用：%d</string>
+    <string name="unavailable_proposal">方案不存在，请重新输入目的地</string>
 </resources>

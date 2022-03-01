@@ -11,9 +11,6 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel : ViewModel() {
 
-    companion object {
-        const val ID = "123"
-    }
     private var transportationUsecase: TransportationUsecase
     private val _proposals: MutableLiveData<List<TransportationProposal>> = MutableLiveData()
     val proposals: LiveData<List<TransportationProposal>> = _proposals
@@ -22,9 +19,10 @@ class HomeViewModel : ViewModel() {
         val transportationRepository = TransportationRepository()
         transportationUsecase = TransportationUsecase(transportationRepository)
     }
-    fun fetchProposals() {
+
+    fun fetchProposals(id: String) {
         viewModelScope.launch {
-            _proposals.value = transportationUsecase.fetchProposals(ID)
+            _proposals.value = transportationUsecase.fetchProposals(id)
         }
     }
 }
