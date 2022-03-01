@@ -2,7 +2,7 @@
     <string name="app_name">ChuXing</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">出行方案</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
@@ -12,4 +12,7 @@
     <string name="depart">起点:</string>
     <string name="destination">目的地:</string>
     <string name="confirm">确定</string>
+    <string name="car_type">车辆大小：%s</string>
+    <string name="duration">预估时间：%d</string>
+    <string name="price">预估费用：%d</string>
 </resources>
